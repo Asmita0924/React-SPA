@@ -1,0 +1,62 @@
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make full height available */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Center container */
+.box {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+/* Input */
+input {
+  padding: 10px;
+  width: 240px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4f6df5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b55d9;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 8px;
+}

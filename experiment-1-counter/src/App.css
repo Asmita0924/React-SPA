@@ -1,0 +1,53 @@
+/* Reset default spacing */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Centering the app */
+.box {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4f6df5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b55d9;
+}
+
+/* Reset button */
+button:last-child {
+  background-color: #f05454;
+}
+
+button:last-child:hover {
+  background-color: #d94343;
+}
