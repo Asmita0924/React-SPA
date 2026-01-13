@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="box">
-      <h1>To-Do SPA</h1>
+      <h1>To-Do List</h1>
 
       <input
         type="text"
